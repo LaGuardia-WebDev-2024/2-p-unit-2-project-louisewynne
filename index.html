@@ -22,15 +22,14 @@ Select ONE Additional Feature to Add
             body{
                 font-family: georgia;
                 background-color:rgb(29, 17, 99);
-                
                 }
 
-                h1{
-                    background-color: rgb(228, 0, 75);
+                #title{
                     color: rgb(75, 213, 255);
+                    
                 }
             
-                h4{
+                #subtitle{
                     margin-bottom: -16px;
                     color: rgb(228, 0, 75);
                 }
@@ -47,8 +46,8 @@ Select ONE Additional Feature to Add
         </style>
     </head>
     <body>
-        <h4>You Should Go to</h4>
-        <h1>The Bowling Alley</h1>
+        <h4 id="subtitle">You Should Go to</h4>
+        <h1 id="title">The Roller Rink</h1>
 
         <h3 class="headers">Why?</h3>
         <p> 
@@ -61,8 +60,16 @@ Select ONE Additional Feature to Add
         </p>
 
         <h3 class="headers">Where?</h3>
-        <p class="headers">Address and things</p>
+        <p class="words">There are many different places throughout NYC, I reccomend:<br>
+            <dl class="words">
+                <dt>Prospect park</dt>
+                <dd>Free to skate, you only have to pay to rent skates if you need them. It's also in the middle of Prospect Park which is beautiful.</dd>
+                <dt>name</dt>
+                <dd>reasons</dd>
+            </dl>
+        </p>
 
+    
         
     </body>
 </html>
