@@ -1,16 +1,16 @@
 <!--Unit 2 Project
 Requirements
-[  ] Two Element Selectors
-[  ] Two ID Selectors
-[  ] Two Class Selectors
+[ yes ] Two Element Selectors
+[ yes ] Two ID Selectors
+[ yes ] Two Class Selectors
 [  ] Three Images
 
 Select ONE Additional Feature to Add  
-[ no ] Feature 1 - Include Border Radius CSS Property 
+[ yes ] Feature 1 - Include Border Radius CSS Property 
 [ no ] Feature 2 - Include a Static Background Image
 [ no ] Feature 3 - Include An Animated Background Color Change
 [ no ] Feature 4 - Embed YouTube Video 
-[ no ] Feature 5 - Include Border CSS Property 
+[ yes ] Feature 5 - Include Border CSS Property 
 -->
     
 <!DOCTYPE HTML>
@@ -21,25 +21,40 @@ Select ONE Additional Feature to Add
         <style>
             body{
                 font-family: georgia;
-                background-color:rgb(29, 17, 99);
+                background-color:rgb(180, 213, 221);
                 }
 
                 #title{
-                    color: rgb(75, 213, 255);
+                    color: rgb(70, 112, 107);
                     
                 }
             
                 #subtitle{
                     margin-bottom: -16px;
-                    color: rgb(228, 0, 75);
+                    color: rgb(56, 61, 110);
                 }
 
-                .headers{
-                    color: rgb(255, 140, 95);
+                h3{
+                    color: rgb(185, 110, 110);
                 }
 
                 .words{
-                    color: rgb(75, 213, 255);
+                    color: rgb(94, 157, 177)
+                    
+                }
+
+                #lobster{
+                    border-width: 5px;
+                    border-color: aliceblue;
+                    border-style: dotted;
+                    border-radius: 100px;
+                    margin-left: 75px;
+                }
+
+                .images{
+                    border-width: 5px;
+                    border-color: aliceblue;
+                    border-style: dotted;
                 }
 
 
@@ -47,27 +62,30 @@ Select ONE Additional Feature to Add
     </head>
     <body>
         <h4 id="subtitle">You Should Go to</h4>
-        <h1 id="title">The Roller Rink</h1>
+        <h1 id="title">Halifax, Nova Scotia</h1>
 
-        <h3 class="headers">Why?</h3>
+        <h3>Why?</h3>
         <p> 
             <ul class="words">
-                <li> Have fun with your friends, or new people!</li>
-                <li> Easy to learn</li>
-                <li> Why not???</li>
+                <li> It's really really beautiful!!!</li>
+                <li> Very relaxing atmosphere</li>
+                <li> Good food (lots of lobster)</li>
             </ul>
 
+        </p> 
+        
+        <img src="https://png.pngtree.com/png-vector/20231108/ourmid/pngtree-lobster-watercolor-clip-art-cartoon-png-image_10445215.png" 
+        alt="Lobster" 
+        width="100" 
+        id="lobster"
+        >
+
+        <h3>Where is This?</h3>
+        <p class="words"> 
+            Halifax is a city in Nova Scotia, Canada. So up North.
         </p>
 
-        <h3 class="headers">Where?</h3>
-        <p class="words">There are many different places throughout NYC, I reccomend:<br>
-            <dl class="words">
-                <dt>Prospect park</dt>
-                <dd>Free to skate, you only have to pay to rent skates if you need them. It's also in the middle of Prospect Park which is beautiful.</dd>
-                <dt>name</dt>
-                <dd>reasons</dd>
-            </dl>
-        </p>
+        <h3>Photos I Took there:</h3>
 
     
         
